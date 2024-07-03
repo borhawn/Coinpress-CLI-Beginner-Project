@@ -1,0 +1,19 @@
+{
+  "name": "coinpress",
+  "version": "1.0.0",
+  "description": "A cli app to get crypto currency data",
+  "main": "index.js",
+  "bin": "./bin/coinpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Borhan Milani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "colors": "^1.4.0",
+    "commander": "^12.1.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^9.2.23"
+  }
+}
